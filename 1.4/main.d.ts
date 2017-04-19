@@ -1522,6 +1522,7 @@ declare module "meteor/mongo" {
         connection?: Object;
         idGeneration?: string;
         transform?: Function;
+        _driver?: any
       }): Collection < T > ;
     }
     interface Collection < T > {
